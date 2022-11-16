@@ -1,0 +1,53 @@
+#one
+{
+    color: brown;
+}
+
+#two
+{
+    direction: rtl;
+    /* text will show in right to left */
+}
+#three
+{
+    letter-spacing: 3px;
+    /* 3px space applied between letter */
+
+}
+#four
+{
+    word-spacing: 14px;
+    /* 3px space applied between words */
+}
+#five
+{
+    text-indent: 150px;
+    /* it will apply on first line space from start */
+}
+
+a{
+    text-decoration: none;
+    /* Anchor tag have default underline, so we can remove it by applying this */
+}
+
+#six
+{
+    text-decoration: overline ;
+    /* underline, overline, etc */
+}
+ 
+#seven
+{
+    text-transform: uppercase;
+    /* upper, lower, capitalize */
+
+    white-space: pre; 
+    /* word wrap in a single line[observr it] */
+    /* in html we also add gap by using 'pre' tag but it changes font*/
+
+}
+
+#eight
+{
+    line-height: 39px;
+}

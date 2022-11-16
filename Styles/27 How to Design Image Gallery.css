@@ -1,0 +1,32 @@
+*
+{
+    font-family: arial;
+    background-color: darkkhaki;
+}
+
+.gallery
+{
+    width: 760px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 0px auto;
+    /* this used to get content in center */
+    padding: 20px;
+}
+
+h1, p
+{
+    text-align: center;
+}
+
+img
+{
+    margin: 15px;
+    border: 1px solid black;
+}
+
+img:hover
+{
+    height: 180px;  
+    border: 2px dashed darkred; 
+}

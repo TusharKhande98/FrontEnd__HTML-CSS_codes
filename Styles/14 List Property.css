@@ -1,0 +1,39 @@
+*{
+    font-family: monospace;
+}
+
+#one
+{
+    list-style: square;
+    /* list-style: disc; */
+}
+
+ol
+{
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
+}
+
+#three
+{
+    border: 2px solid red;
+}
+
+#three-1
+{
+    border: 1px solid green;
+}
+
+#three-2,#three-3
+{
+    border: 1px solid green;
+    list-style-position: inside; 
+}
+
+#four
+{
+    list-style-image: url("/background\ Images/Coloured_eye.ico")
+    /* type PNG type image file name here to get output */
+}

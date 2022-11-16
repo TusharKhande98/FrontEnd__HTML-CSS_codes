@@ -1,0 +1,99 @@
+/* Uncomment single section/line & run the code */
+
+
+/* 1. SELECTION OF ELEMENT TYPE */
+
+/*Single element type*/
+/* p  
+{
+    color: olivedrab;
+} */
+
+ /*Multiple element type:- select with this--> ','*/
+/* h1,h2 
+{
+    color:blue;
+} */
+
+  /*All element type:- select with this--> '*'*/
+/* *
+{
+    text-align: center;
+} */
+
+
+
+/* 2. ID SELECTOR */
+
+/* ID is denoted as '#' in css file to change effect separatly for any tag */
+
+/* #para1
+{
+    color: red;
+    background: yellow;
+}
+#para2
+{
+    color:indigo;
+    background: yellowgreen;
+} */
+
+/* (class denoted by dot.)ID & class's output will same, but we see it later where it is used properly */
+
+/* .para3,.para4
+{
+    color: brown;
+    font-size: 18px;
+} */
+
+
+
+/* 3. Parent & Child selector */
+/* h1,h2,p is a child of div here */
+
+/* div>h1,p
+{
+    color: blue;
+} */
+
+/* div>h2
+ {
+   background-color: lightgrey;
+   color: green;
+   font-size: 18px;
+}  */
+
+
+
+/* 4. Descendant selector(near about same as above)*/
+
+/* div h1,p
+{
+    color: red;
+} */
+
+
+
+/* 5. Adjacent sibling selector means(H2 IS SIBLING OF P, THEN AFTER H2 IS SIBLING OF P[which IS just AFTER H2(below para)])*/
+
+/* p+h2
+{
+    color: darkgreen;
+    background-color:wheat;
+}
+
+h2+p
+{
+    background-color: palevioletred;
+} */
+
+
+
+/* 6. General sibling selector (this property applied on all paragraph that are after h1)*/
+
+h1~p
+{
+ 
+    color: darkgreen;
+    background-color:wheat;
+}

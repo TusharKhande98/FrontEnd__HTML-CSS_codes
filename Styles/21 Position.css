@@ -1,0 +1,59 @@
+*
+{
+    font-family: Georgia;
+    background-color: lightgreen;
+}
+
+/* 1.FIXED POSITION PROPERTY */
+p
+{
+    width: 1200px;
+    height: 50px;
+    background-color: lightsalmon;
+    position: fixed;
+/* its a fixed property for which we can use below property top & left(we cant use it in 'static')*/
+    top: 40px;
+    left:  30px;
+}
+
+/* 2. RELATIVE POSITION PROPERTY */
+.pr2
+{
+    width: 1000px;
+    height: 200px;
+    background-color: red;
+}
+
+.pr3
+{
+    width: 800px;
+    height: 100px;
+    background-color: green;
+    margin-top: -90px;
+/* with this property we can overlap 2 positions*/
+}
+
+
+/* 3. ABSOLUTE POSITION PROPERTY */
+.pr4
+{
+    width: 1000px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    top: 0px;
+    left: 0px;
+/* here parent of relative position is body so it will apply according to it */
+}
+
+.pr5
+{
+    width: 800px;
+    height: 100px;
+    background-color: lightslategrey;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+/* If we used a paragraph or other content so use relative position */
+/* And if we used an image to overlap on that content so use absolute position for it as above*/
+}

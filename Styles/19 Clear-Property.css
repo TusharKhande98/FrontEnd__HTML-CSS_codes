@@ -1,0 +1,26 @@
+*
+{
+    font-family: Lucida Sans ;
+    background-color: gainsboro;;
+}
+
+p
+{
+    width: 250px;
+    height: 300px;
+    border: 2px solid red;
+    float: left;
+}
+
+.para2
+{
+    float: right;
+}
+
+.para3
+{
+    height: 200;
+    width: 100%;
+    clear: both;
+}
+

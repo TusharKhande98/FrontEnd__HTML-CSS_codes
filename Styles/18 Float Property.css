@@ -1,0 +1,23 @@
+*
+{
+    background-color: aquamarine;
+}
+
+div
+{
+    height: 300px;
+    width: 400px;
+    border: 1px solid saddlebrown;
+    margin: 5px;
+    float: left;
+    
+}
+
+.aside
+{
+    width: 280px;
+    height: 200px;
+    float: right;
+
+}
+

@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Courier New';
+}
+
+#one
+{
+    border: 5px solid green;
+    padding-bottom: 40px;
+    /* this will add a line between last line of para & a border which had exactly its below */
+    padding-left: 50px;
+    /* add space from left */
+    padding-right: 50px;
+    /* add space from right */
+    padding-top: 50px;
+    /* add space from top */
+}
+
+#two
+{
+    border: 5px solid blueviolet;
+    padding: 30px 20px 26px 45px; 
+}
+
+#three
+{
+    border: 5px solid darkred;
+    padding: 40px 25px; 
+}

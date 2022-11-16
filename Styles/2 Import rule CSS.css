@@ -1,0 +1,7 @@
+/* We import this file in another CSS file without link it with  HTML code in head section */
+h1
+{
+    background-color: thistle;
+    color: brown;
+
+}

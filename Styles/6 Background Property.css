@@ -1,0 +1,76 @@
+/* Background Color */
+body
+{
+    background-color:lightgrey;
+}
+
+p
+{
+    background-color: lightyellow ;
+}
+
+#p2
+{
+    background-color: #445155;
+}
+
+
+
+/* Background Image */
+
+body
+{
+/* BACKGROUND REPEAT MODE CHECK BY UNCOMMENTING ONW LINE AT A TIME */
+
+    background-image: url("/background\ Images/Bugatti veyron.jpg");
+    /* here we add image with its path */
+
+    /* background-repeat: no-repeat; */
+/* if image is too large so its repeated, we apply an properrty here for no-repeat */
+
+    background-repeat:repeat-x;
+/* if image is too large so its repeated in horizontal */
+
+    /* background-repeat:repeat-y; */
+/* if image is too large so its repeated in vertical.*/
+
+
+/* BACKGROUND POSITION SHOULDE CHECK BY ADDING A SMALL SIZE IMAGE Eg- .png file */
+  
+    /* background-position: right; */
+
+    /* background-position: right top; */
+  
+    /* background-position: left bottom; */
+
+    /* background-position: left middle; */
+    
+    /* background-position: center; */
+
+/* Background position by giving axis values */ 
+
+    /* background-position: 200px 500px; */
+
+    background-position: 40px 20px;
+/* 40px for left 20px for top*/    
+
+
+/* Background Attachment */
+
+    /* background-attachment: scroll; */
+/*Scroll is default set*/
+ 
+    /* background-attachment: fixed; */
+/* check this with small image file in separate code*/    
+
+
+/*we also apply that property in a single line in background url() property*/
+    background:url("/background\ Images/Bugatti veyron.jpg") fixed;
+    background:url("/background\ Images/Bugatti veyron.jpg") no-repeat;
+
+
+    /*If properrty dosen't apply in particular case, so we need to apply it individually*/
+
+
+
+}

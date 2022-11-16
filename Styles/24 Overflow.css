@@ -1,0 +1,28 @@
+*
+{
+    font-family: arial;
+    background-color:plum;
+}
+p
+{
+    background-color:slateblue;
+    width: 250px;
+    font-size: 1em;
+    font-family: georgia;
+    height: 300px;
+    border: 2px solid green;
+   
+    /* overflow: hidden; */
+/* By this property we can hide a contet which are out of boxes */
+
+    overflow: scroll;
+/* By this property we can scroll a contet inside a border box */
+
+    overflow: auto ;
+/* auto & scroll property are near about same, in auto just bottom bar is N.A. */
+
+
+
+
+}
+

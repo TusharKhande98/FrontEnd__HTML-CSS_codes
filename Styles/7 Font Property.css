@@ -1,0 +1,35 @@
+#pr1
+{
+    font-family: Arial;
+}
+
+#pr2
+{
+    font-family: Impact;
+}
+
+#pr3
+{
+    font-style: italic;
+    /* we do this same in html directly using <i></i> tag. */
+}
+
+#pr4
+{
+    font-variant:small-caps;
+}
+
+#pr5
+{
+    font-weight: bolder;
+    /* we also give values here from 100 to 900 */
+}
+
+#pr6
+{
+    /* font-size: x-large; */
+    /* font-size: y-large; */
+    /* font-size: xx-large; */
+    font-size: 30px;
+
+}

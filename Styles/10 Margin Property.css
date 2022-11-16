@@ -1,0 +1,41 @@
+#one
+{
+    border: 2px solid red;
+    margin-top: 38px;
+    /* gap from above */
+}
+#two
+{
+    border: 5px solid lightcoral;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* 40px gap between this & next line below & 20 px in above */
+}   
+#three
+{
+    border: 7px solid darkgreen;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+    margin-left: 29px;
+}
+
+#four
+{
+    margin: 50px;
+    /* this single property will be applied on 4 side */
+}
+
+#five
+{
+    margin: 50px 30px;
+    /* this double value are applied as 50 on top-bottom & 30 on right-left */
+}
+
+#six
+{
+    border: 5px dashed lightgreen;
+    margin: 50px 30px 60px 20px;
+    /* this 4 value are applied as 50=top, 30=right, 60=bottom, 20=left */
+    /* this 4 values applies as clockwise starting from top */
+}

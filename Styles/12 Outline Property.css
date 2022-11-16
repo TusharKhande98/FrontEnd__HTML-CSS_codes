@@ -1,0 +1,47 @@
+h1
+{
+    font-style: italic;
+}
+
+#one
+{
+    border: 5px solid gold;
+    outline: 10px double saddlebrown;
+    /* here we get outline- */
+}
+
+#two
+{
+    border: 5px solid blue;
+    outline: 7px dotted lightcoral;
+}
+
+#three
+{
+    border:  6px solid firebrick;
+    outline-color: green;
+    outline-style: dashed;
+    outline-width: 8px;
+}
+
+#four
+{
+    border:  4px solid rgb(99, 89, 27);
+    /* outline-top-style: double; */
+    /* we cant make changes in outline top as above individually*/
+    border-top-style: dotted;
+    outline-color: rgb(85, 85, 162);
+    outline-style: dashed;
+    outline-width: 8px;
+    
+}
+
+#five
+{
+    border:  5px solid rgb(46, 15, 59);
+    border-top: 9px dashed gray;
+    border-bottom: 11px dotted firebrick;
+
+}
+
+/* outline dont have a separate property but border have, its a major difference in this two method */

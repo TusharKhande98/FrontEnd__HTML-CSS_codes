@@ -1,0 +1,46 @@
+#one
+{
+    border-top: 10px solid green;
+    border-bottom: 8px dashed goldenrod;
+
+}
+#two
+{
+    border: 5px solid lawngreen;
+    border-top-color: red;
+}
+#three
+{
+    border: .4em solid;
+    border-top-color: darkslategray;
+    border-bottom-color: goldenrod;
+    border-left-color: darkblue;
+    border-right-color:crimson;
+}
+
+#four
+{
+    border: 5px dashed fuchsia;
+}
+#five
+{
+    border: 15px groove darkolivegreen;
+}
+
+#six
+{
+    border: 12px sienna;
+    border-top-style: double;
+    border-bottom-style: dotted;
+    border-right-style: dashed;
+    border-left-style:inset ;
+}
+
+#seven
+{
+    border: 14px solid firebrick;
+    border-top-width: 10px;
+    border-right-width: 13px;
+    border-left-width: 16px;
+    border-bottom-width: 19px;
+}

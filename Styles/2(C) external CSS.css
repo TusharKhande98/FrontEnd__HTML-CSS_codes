@@ -1,0 +1,14 @@
+@import url("/Styles/2\ Import\ rule\ CSS.css");
+
+/* Here we import another stylesheet with "@ import url tag" */
+
+p
+{color: darkred;
+font-size: 25px;
+}
+
+h1
+{
+    background-color: lightgoldenrodyellow;
+    color: darkblue;
+}

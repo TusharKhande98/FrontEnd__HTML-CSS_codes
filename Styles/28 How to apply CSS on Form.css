@@ -1,0 +1,49 @@
+.wrap
+{
+    width: 460px;
+    height: 460px;
+    background-color: brown;
+    padding: 20px;
+}
+
+.myform1
+{
+    width: 410px;
+    height: 410px;
+    background-color: lightgrey;
+    margin: 0px auto;
+    /* inner box will be in center due to above line */
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+    color: darkslategrey;
+}
+
+.txt
+{
+    width: 410px;
+    height: 40px;
+    margin: 10px;
+} 
+
+.but
+{
+    background-color: lightgreen;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+}
+
+.account
+{
+    margin-left: 80px;
+}
+
+.confpass
+{
+    color: gray;
+    margin-left: 10px;
+}

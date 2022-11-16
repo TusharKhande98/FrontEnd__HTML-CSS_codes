@@ -1,0 +1,49 @@
+/* We see different font measurement & color contents */
+
+#one
+{
+    font-size:  1.2em;
+    color: #6f4E37;
+    /* its a hex code-  #RRGGBB color format */
+}
+#two
+{
+    font-size:  1.4rem;
+    color: #567;
+    /* its a short hex code-  #RGB color format */
+}
+#three
+{
+    font-size:  .2cm;
+    color: rgba(288,0,0,1);
+    /* its a rgba() color format */
+}
+#four
+{
+    font-size:  .2in;
+    color: darkblue;
+    /* its a keyword color format */
+}
+#five
+{
+    font-size:  9mm;
+    color: rgb(55,0,1);
+    /* its a rgb() color format */
+
+}
+#six
+{
+    font-size:  2pt;
+    color: limegreen;
+    /* its a keyword color format */
+}
+#seven
+{
+    font-size:  19;
+    color: rgb(55,0,1);
+}
+#eight
+{
+    font-size:  1.5%;
+    color: goldenrod;
+}

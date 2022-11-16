@@ -1,0 +1,26 @@
+*
+{
+    font-family: Cambria;
+    background-color: lightgray;
+}
+
+a
+{
+    /* display: block; */
+    /* it will assemble our data in vertical format */
+    display: inline-block;
+    /* here it gets separate block in line mode(not observable) */
+}
+
+li
+{
+    display: inline;
+    /* we change property to inline to display list in horizaontal mode */    
+}
+
+div
+{
+    display: none;
+    /* here we hide anchor tag with this property */
+}
+

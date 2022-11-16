@@ -1,0 +1,54 @@
+*
+{
+    font-family: Tahoma;
+    border-color:bisque;
+}
+
+table
+{
+    border-collapse: separate; /* its a default property of table */
+    
+    /* border-collapse: collapse; */ /* we cant use below property with it*/
+    
+    border-spacing: 15px;
+    
+    empty-cells: hide;
+
+    width: 300px;
+    height: 300px;
+
+    text-align:center;
+
+    background-color: lightsteelblue;
+     color: darkgreen;
+}
+
+
+caption
+{
+    caption-side: bottom;
+}
+
+td
+{
+    vertical-align:bottom ;
+}
+
+.one
+{
+    background-color: lightgreen;
+    color: green;
+}
+
+.two
+{
+    background-color: black;
+    color:red;
+}
+
+.three
+{
+    background-color: violet;
+    color: darkslateblue;
+}
+

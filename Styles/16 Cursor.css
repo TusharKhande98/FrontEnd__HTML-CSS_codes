@@ -1,0 +1,51 @@
+h6
+{
+   cursor: auto; 
+}
+
+p
+{
+    cursor: crosshair;
+}
+
+h5
+{
+    cursor: default;
+}
+
+h4
+{
+    cursor: pointer;
+}
+
+h3
+{
+    cursor: move;
+}
+
+h2
+{
+    cursor: e-resize;
+    cursor: w-resize;
+} /* east & west resize icon will be same*/
+
+h1
+{
+    cursor: n-resize;
+    cursor: s-resize;
+} /* east & west resize icon will be same*/
+
+#def
+{
+    cursor: se-resize;
+}
+
+#cef
+{
+    cursor: wait;
+}
+
+#kef
+{
+    cursor: help;
+}

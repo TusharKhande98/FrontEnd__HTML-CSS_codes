@@ -1,0 +1,36 @@
+*
+{
+    font-family: monospace;
+    background-color:lightcyan;
+}
+
+a:link
+{
+    text-decoration: none;
+    color:blue;
+    background-color: wheat;
+}
+
+a:visited
+{
+    color:darkolivegreen;
+}
+
+a:hover
+{
+    color: darkblue;
+    background-color: lightgray;
+}
+
+a:active
+{
+    color:yellow;
+    background-color: lightblue ;
+}
+
+
+p:hover
+{
+    color:rgb(137, 11, 11);
+    background-color:black;
+}

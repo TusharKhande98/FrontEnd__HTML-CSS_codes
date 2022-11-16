@@ -1,0 +1,174 @@
+/* Layout-1 */
+*
+{
+    background-color:lightblue;
+    font-family: Cambria;
+    padding: 0px;
+    margin: 0px;
+/* Due to our heading it wil be little down from margin otherwise its on left upper corner exactly */
+}
+
+.wrap
+{
+    width: 1600px;
+    height: auto;
+/* Whenever we increase height in any portion of page so height of webb page also adjust autimatically */
+    margin: 0px auto;
+
+}
+
+.header, .footer
+{
+    height: 100px;
+    background-color: darkred;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+/* By appyling this our heading is properly in center position */
+
+}
+
+.container
+{
+    height: 600px;
+}
+
+
+.content
+{
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 600px;
+    background-color:lightcoral;
+    float: left;
+
+
+}
+
+
+.sidebar
+{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 600px;
+    background-color:lightgreen;
+    float: right;
+}
+
+
+/* Layout-2 */
+*
+{
+    background-color:lightblue;
+    font-family: Cambria;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.wrap2
+{
+    width: 1600px;
+    height: auto;
+    margin: 0px auto;
+
+}
+
+.header2, .footer2
+{
+    height: 100px;
+    background-color: darkred;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.navigation2
+{
+    height: 50px;
+    background-color: gray;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.container2
+{
+    height: 650px;
+    
+}
+
+
+.content2
+{
+    width: 900px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 600px;
+    background-color:lightcoral;
+    float: left;
+    
+    margin: 20px 50px;
+/* Top & bottom 20px and right & left are 50px */
+
+
+}
+
+
+.sidebar2
+{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 600px;
+    background-color:lightgreen;
+    float: right;
+    margin: 20px 50px;
+}
+
+
+/* Layout-3 */
+
+.wrap3
+{
+    width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.leftside, .rightside
+{
+    width: 170px;
+    height: 600px;
+    border: 5px solid red;
+    float: left;   
+}
+
+a
+{
+    font-size: 30px;
+}
+
+.middle
+{
+    width: 500px;
+    height: 560px;
+    border: 5px solid blue;
+    font-size: 30px;
+    float: left;
+    padding-top: 20px 0px;
+}
+
+.rightside
+{
+    font-size: 30px;
+     border: 5px solid green;
+    width: 500px;
+    float: right;
+}

@@ -1,0 +1,22 @@
+*
+{
+    background-color: lightslategrey;
+}
+
+#one
+{
+    height: 200px;
+    width: 7    50px;
+    border: 2px dashed darkgreen;
+    background-color: aqua;
+}
+
+#two
+{
+    border: 2px dashed darkred;
+    /* max-height: 150px; */
+    /* min-height: 250px; */
+    /* max-width: 270px; */
+    min-width: 100px;
+    /* run any one from above */
+}
